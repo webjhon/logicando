@@ -43,7 +43,7 @@
 			<nav id="menu_mobile">
 			
 				<ul>
-					<li><img src="imagens/menuicon.png"><a href="#"></a>
+					<li><img id="menu_icon" src="imagens/menuicon.png"><a href="#"></a>
 						<ul>
 							<li><a href="#">Sobre</a></li>
 							<li><a href="#">Objetivo</a></li>
