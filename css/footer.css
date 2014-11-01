@@ -4,7 +4,7 @@ footer{
 	text-align: right;
 	background: black;
 	/*border: 1px solid #000;*/
-	height: 100%;
+	min-width: 200px;
 	clear: left;
 	word-wrap: break-word;
 	}
