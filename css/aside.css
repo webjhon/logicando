@@ -1,0 +1,48 @@
+@media screen and (min-width: 769px){
+aside{
+		background: blue;
+		/*border: 1px solid #000;*/
+		height: 600px;
+		width: 79%;
+		margin-top: 1%;
+		float: right;
+		word-wrap: break-word;
+	}
+}
+
+@media screen and (max-width: 768px){
+aside{
+		background: blue;
+		/*border: 1px solid #000;*/
+		height: 400px;
+		width: 79%;
+		margin-top: 1%;
+		float: right;
+		word-wrap: break-word;
+	}
+}
+
+/*Galaxy S3*/
+@media screen and (max-width: 480px){
+aside{
+		background: blue;
+		/*border: 1px solid #000;*/
+		height: 100%;
+		width: 100%;
+		margin-top: 1%;
+		float: right;
+		word-wrap: break-word;
+	}
+}
+
+@media screen and (max-width: 320px){
+aside{
+		background: blue;
+		/*border: 1px solid #000;*/
+		height: 100%;
+		width: 100%;
+		margin-top: 1%;
+		/*float: right;*/
+		word-wrap: break-word;
+	}
+}

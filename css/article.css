@@ -1,0 +1,58 @@
+@media screen and (min-width: 769px){
+article{
+	background: green;
+	/*border: 1px solid #000;*/
+	height: 600px;
+	width: 20%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	/*margin-left: 1px;*/
+	float: left;
+	word-wrap: break-word;
+	}
+}
+
+@media screen and (max-width: 768px){
+article{
+	background: green;
+	/*border: 1px solid #000;*/
+	height: 400px;
+	width: 20%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	/*margin-left: 1px;*/
+	float: left;
+	word-wrap: break-word;
+	}
+}
+
+/*Galaxy S3*/
+@media screen and (max-width: 480px){
+article{
+	background: green;
+	/*border: 1px solid #000;*/
+	height: 100%;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	/*margin-left: 1px;*/
+	float: left;
+	display: none;
+	word-wrap: break-word;
+	}
+}
+
+@media screen and (max-width: 320px){
+article{
+	background: green;
+	/*border: 1px solid #000;*/
+	height: 100%;
+	width: 100%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	/*margin-left: 1px;*/
+	/*float: left;*/
+	display: none;
+	word-wrap: break-word;
+	}
+}

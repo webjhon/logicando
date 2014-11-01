@@ -1,0 +1,49 @@
+@media screen and (min-width: 769px){
+footer{
+	color: white;
+	text-align: right;
+	background: black;
+	/*border: 1px solid #000;*/
+	height: 100%;
+	clear: left;
+	margin-top: 1%;
+	word-wrap: break-word;
+	}
+}
+
+@media screen and (max-width: 768px){
+footer{
+	color: white;
+	text-align: right;
+	background: black;
+	/*border: 1px solid #000;*/
+	height: 100%;
+	clear: left;
+	word-wrap: break-word;
+	}
+}
+
+/*Galaxy S3*/
+@media screen and (max-width: 480px){
+footer{
+	color: white;
+	text-align: right;
+	background: black;
+	/*border: 1px solid #000;*/
+	height: 100%;
+	clear: left;
+	word-wrap: break-word;
+	}
+}
+
+@media screen and (max-width: 320px){
+footer{
+	color: white;
+	text-align: right;
+	background: black;
+	/*border: 1px solid #000;*/
+	height: 100%;
+	clear: left;
+	word-wrap: break-word;
+	}
+}

@@ -1,0 +1,291 @@
+@media screen and (min-width: 769px){ /*PC*/
+#menu_mobile {display: none;}
+#logo{
+	float: left;
+}
+
+#menu_desktop{
+	font-size: 16px;
+	/*background: gray;*/
+	border: 1px solid #c0c0c0;
+	height: 30%;
+	width: 40%;
+	margin-top: 1%;
+	margin-left: 15%;
+	position: relative;
+	float: left;
+	}
+	
+#menu_desktop li{
+	position: relative;
+	float: left;
+	width: 120px;
+	display:inline-block;
+	/*border: 1px solid #000;*/
+	/*border-right:1px solid #c0c0c0;*/
+	/*padding-left: 2%;
+	padding-right: 2%;*/
+	}
+	
+#menu_desktop li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+#menu_desktop li a:hover {
+	background:#333;
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+}
+
+#menu_desktop li ul{
+	/*margin-top: 1%;
+	position: absolute;
+	left:20%;
+	display: none;*/
+	position:absolute;
+	top:25px;
+	left: -40px;
+	/*background-color:#fff;*/
+	display:none;
+	}
+
+#menu_desktop li:hover ul{
+	display: block;
+	}
+	
+#menu_desktop li ul li{
+	display:block;
+	width:150px;
+	}
+
+}
+
+@media screen and (max-width: 768px){ /*Tablet Paisagem */
+#menu_desktop {display: none;}
+#menu_mobile ul{
+	font-size: 16px;
+	/*background: gray;*/
+	/*border: 1px solid red;*/
+	height: 30%;
+	width: 5%;
+	margin-top: -10%;
+	margin-left: 10%;
+	position: relative;
+	/*float: left;*/
+	}
+#menu_mobile li img{
+	width: 40px;
+	height: 40px;
+}
+	
+#menu_mobile li{
+	position: relative;
+	/*float: left;*/
+	width: 40px;
+	display:inline-block;
+	/*border: 1px solid #000;*/
+	/*border-right:1px solid #c0c0c0;*/
+	/*padding-left: 2%;
+	padding-right: 2%;*/
+	}
+	
+#menu_mobile li a{color:#333; text-decoration:none; display:block;}
+
+#menu_mobile li a:hover {
+	width:120px;
+	background:#333;
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+}
+
+#menu_mobile li ul{
+	/*margin-top: 1%;
+	position: absolute;
+	left:20%;
+	display: none;*/
+	position:absolute;
+	top:40px;
+	left: -65px;
+	/*background-color:#fff;*/
+	display:none;
+	}
+
+#menu_mobile li:hover ul{
+	display: block;
+	}
+}
+
+@media screen and (max-width: 480px){ /*Tablet Retrato */
+
+#menu_mobile img{
+	width: 100px;
+}
+
+#menu_mobile ul{
+	font-size: 16px;
+	/*background: gray;*/
+	/*border: 1px solid red;*/
+	height: 30%;
+	width: 5%;
+	margin-top: 1%;
+	margin-left: 10%;
+	position: relative;
+	float: left;
+	}
+#menu_mobile li img{
+	width: 40px;
+	height: 40px;
+}
+	
+#menu_mobile li{
+	position: relative;
+	float: left;
+	width: 40px;
+	display:inline-block;
+	/*border: 1px solid #000;*/
+	/*border-right:1px solid #c0c0c0;*/
+	/*padding-left: 2%;
+	padding-right: 2%;*/
+	}
+	
+#menu_mobile li a{color:#333; text-decoration:none; display:block;}
+
+#menu_mobile li a:hover {
+	width:120px;
+	background:#333;
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+}
+
+#menu_mobile li ul{
+	/*margin-top: 1%;
+	position: absolute;
+	left:20%;
+	display: none;*/
+	position:absolute;
+	top:40px;
+	left: -65px;
+	/*background-color:#fff;*/
+	display:none;
+	}
+
+#menu_mobile li:hover ul{
+	display: block;
+	}
+}
+@media screen and (max-width: 480px){ /*Smarthphone Paisagem*/
+#menu_desktop {display: none;}
+#menu_mobile ul{
+	font-size: 16px;
+	/*background: gray;*/
+	/*border: 1px solid red;*/
+	height: 30%;
+	width: 5%;
+	margin-top: 1%;
+	margin-left: 10%;
+	position: relative;
+	float: left;
+	}
+#menu_mobile li img{
+	width: 40px;
+	height: 40px;
+}
+	
+#menu_mobile li{
+	position: relative;
+	float: left;
+	width: 40px;
+	display:inline-block;
+	/*border: 1px solid #000;*/
+	/*border-right:1px solid #c0c0c0;*/
+	/*padding-left: 2%;
+	padding-right: 2%;*/
+	}
+	
+#menu_mobile li a{color:#333; text-decoration:none; display:block;}
+
+#menu_mobile li a:hover {
+	width:120px;
+	background:#333;
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+}
+
+#menu_mobile li ul{
+	/*margin-top: 1%;
+	position: absolute;
+	left:20%;
+	display: none;*/
+	position:absolute;
+	top:40px;
+	left: -65px;
+	/*background-color:#fff;*/
+	display:none;
+	}
+
+#menu_mobile li:hover ul{
+	display: block;
+	}
+}
+@media screen and (max-width: 320px){ /*Smarthphone Retrato*/
+#menu_desktop {display: none;}
+#menu_mobile ul{
+	font-size: 16px;
+	/*background: gray;*/
+	/*border: 1px solid red;*/
+	height: 30%;
+	width: 5%;
+	margin-top: 1%;
+	margin-left: 10%;
+	position: relative;
+	float: left;
+	}
+#menu_mobile li img{
+	width: 40px;
+	height: 40px;
+}
+	
+#menu_mobile li{
+	position: relative;
+	float: left;
+	width: 40px;
+	display:inline-block;
+	/*border: 1px solid #000;*/
+	/*border-right:1px solid #c0c0c0;*/
+	/*padding-left: 2%;
+	padding-right: 2%;*/
+	}
+	
+#menu_mobile li a{color:#333; text-decoration:none; display:block;}
+
+#menu_mobile li a:hover {
+	width:120px;
+	background:#333;
+	color:#fff;
+	-moz-box-shadow:0 3px 10px 0 #CCC;
+	-webkit-box-shadow:0 3px 10px 0 #ccc;
+	text-shadow:0px 0px 5px #fff;
+}
+
+#menu_mobile li ul{
+	/*margin-top: 1%;
+	position: absolute;
+	left:20%;
+	display: none;*/
+	position:absolute;
+	top:40px;
+	left: -65px;
+	/*background-color:#fff;*/
+	display:none;
+	}
+
+#menu_mobile li:hover ul{
+	display: block;
+	}
+}
